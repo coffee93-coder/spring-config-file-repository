@@ -4,7 +4,7 @@ spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
-spring.datasource.url: jdbc:postgresql://localhost:5432/postgres
+spring.datasource.url: "jdbc:postgresql://localhost:5432/postgres"
 spring.datasource.username: "postgres_prod"
 spring.datasource.password: "p0stgr@s"
 spring.datasource.testWhileIdle: "true"
