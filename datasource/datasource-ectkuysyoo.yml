@@ -1,0 +1,113 @@
+  config: ectkuysyoo
+  redis_hostname: "ectkuysyoo.cafe24shop.com"
+
+  postgresql_mall_master:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "mall"
+    username: "malluser"
+  
+  postgresql_mall_master_without_replication:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "mall"
+    username: "malluser"
+  
+  postgresql_mall_slave:
+    type: "pgsql"
+    host:
+    port:
+    database:
+    username: "malluser"
+  
+  postgresql_mall_admin:
+    type: "pgsql"
+    host:
+    port:
+    database: "mall"
+    username: "malluser"
+  
+  postgresql_mall_localhost:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "mall"
+    username: "malluser"
+  
+  postgresql_mall_system:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "mall"
+    username: "malluser"
+  
+  postgresql_coupon_master:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "coupon"
+    username: "malluser"
+  
+  postgresql_coupon_master_without_replication:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "coupon"
+    username: "malluser"
+  
+  postgresql_ec_daemon_master:
+    type: "pgsql"
+    host: "/tmp"
+    port: 9999
+    database: "ec_daemon"
+    username: "ecdaemon"
+
+  memcached_01:
+    host: "localhost"
+    port: 11211
+
+  memcached_02:
+    host: "localhost"
+    port: 11212
+
+  memcached_02_localhost:
+    host: "localhost"
+    port: 11212
+
+  redis_01:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6375
+
+  redis_02:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6376
+
+  redis_03:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6377
+
+  redis_04:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6378
+
+  redis_04_localhost:
+    host: "localhost"
+    port: 6378
+
+  redis_05:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6379
+
+  redis_cart:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6382
+
+  redis_localhost:
+    host: "localhost"
+    port: 6379
+
+  redis_rtq:
+    host: "ectkuysyoo.cafe24shop.com"
+    port: 6379
