@@ -1,3 +1,4 @@
+  config: prod
   redis_hostname: "EC_MALL_ID.ROOT_DOMAIN"
 
   postgresql_mall_master:
