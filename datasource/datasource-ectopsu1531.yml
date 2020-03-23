@@ -1,5 +1,5 @@
   config: ectopsu1531
-  redis_hostname: "ectopsu1531.cafe24.com"
+  redis_hostname: "ectopsu1531123123123123123123.cafe24.com"
 
   postgresql_mall_master:
     type: "pgsql"
