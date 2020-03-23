@@ -1,4 +1,4 @@
-  config: ectlocal
+  config: ectlocal11111
 
   postgresql_mall_master:
     type: "pgsql"
