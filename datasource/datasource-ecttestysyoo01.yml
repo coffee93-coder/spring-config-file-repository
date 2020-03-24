@@ -1,133 +1,110 @@
-{
-    "config": "ecttestysyoo01"
-    "redis_hostname": null,
-    "postgresql_mall_master": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-shop-1-postgresql-ms",
-        "port": 5432,
-        "database": "mall004",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_mall_master_without_replication": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-shop-1-postgresql-ms",
-        "port": 5432,
-        "database": "mall004",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_mall_slave": {
-        "type": "pgsql",
-        "host": null,
-        "port": null,
-        "database": null,
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_mall_admin": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-shop-1-postgresql-ms",
-        "port": 5432,
-        "database": "mall004",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_mall_localhost": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-shop-1-postgresql-ms",
-        "port": 5432,
-        "database": "mall004",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_mall_system": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-daemon-1-postgresql-ms",
-        "port": 5432,
-        "database": "mall",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_coupon_master": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-coupon-1-postgresql-ms",
-        "port": "5432",
-        "database": "coupon",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_coupon_master_without_replication": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-coupon-1-postgresql-ms",
-        "port": "5432",
-        "database": "coupon",
-        "username": "malluser",
-        "password": "xhd@lfEoqkr1950#krtn"
-    },
-    "postgresql_ec_daemon_master": {
-        "type": "pgsql",
-        "host": "ec-cloud-postgresql-ec-daemon-1-postgresql-ms",
-        "port": 5432,
-        "database": "ec_daemon",
-        "username": "ecdaemon",
-        "password": "ep#hsQkffl330"
-    },
-    "memcached_01": {
-        "host": "ec-cloud-memcached-1",
-        "port": 11211
-    },
-    "memcached_02": {
-        "host": "ec-cloud-memcached-1",
-        "port": 11211
-    },
-    "memcached_02_localhost": {
-        "host": "ec-cloud-memcached-1",
-        "port": 11211
-    },
-    "redis_01": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_02": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_03": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_04": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_04_localhost": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "dkfjskdEsjsi#dksjei"
-    },
-    "redis_05": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_cart": {
-        "host": "ec-cloud-redis-master",
-        "port": 6379,
-        "auth": "dkfjskdEsjsi#dksjei"
-    },
-    "redis_localhost": {
-        "host": "ec-cloud-redis-cluster-1",
-        "port": 6379,
-        "auth": "redis"
-    },
-    "redis_rtq": {
-        "host": "ec-cloud-redis-master",
-        "port": 6379,
-        "auth": "dkfjskdEsjsi#dksjei"
-    }
-}
+config: ecttestysyoo01
+redis_hostname: 
+postgresql_mall_master:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-shop-1-postgresql-ms
+  port: 5432
+  database: mall004
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_mall_master_without_replication:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-shop-1-postgresql-ms
+  port: 5432
+  database: mall004
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_mall_slave:
+  type: pgsql
+  host: 
+  port: 
+  database: 
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_mall_admin:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-shop-1-postgresql-ms
+  port: 5432
+  database: mall004
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_mall_localhost:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-shop-1-postgresql-ms
+  port: 5432
+  database: mall004
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_mall_system:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-daemon-1-postgresql-ms
+  port: 5432
+  database: mall
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_coupon_master:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-coupon-1-postgresql-ms
+  port: '5432'
+  database: coupon
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_coupon_master_without_replication:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-coupon-1-postgresql-ms
+  port: '5432'
+  database: coupon
+  username: malluser
+  password: xhd@lfEoqkr1950#krtn
+postgresql_ec_daemon_master:
+  type: pgsql
+  host: ec-cloud-postgresql-ec-daemon-1-postgresql-ms
+  port: 5432
+  database: ec_daemon
+  username: ecdaemon
+  password: ep#hsQkffl330
+memcached_01:
+  host: ec-cloud-memcached-1
+  port: 11211
+memcached_02:
+  host: ec-cloud-memcached-1
+  port: 11211
+memcached_02_localhost:
+  host: ec-cloud-memcached-1
+  port: 11211
+redis_01:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_02:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_03:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_04:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_04_localhost:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: dkfjskdEsjsi#dksjei
+redis_05:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_cart:
+  host: ec-cloud-redis-master
+  port: 6379
+  auth: dkfjskdEsjsi#dksjei
+redis_localhost:
+  host: ec-cloud-redis-cluster-1
+  port: 6379
+  auth: redis
+redis_rtq:
+  host: ec-cloud-redis-master
+  port: 6379
+  auth: dkfjskdEsjsi#dksjei
