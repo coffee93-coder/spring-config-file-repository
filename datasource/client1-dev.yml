@@ -2,3 +2,10 @@ service:
   name: Client1 Service
 server:
   port: 8200
+  array: 
+    - test1
+    - test2
+  array2: |
+    test111111
+    test222222
+    
